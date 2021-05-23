@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CCchallenge1-Leon</title>
+</head>
+
+<body>
+	<header>
+		<h1>Create An Account</h1>
+	</header>
+	<form>
+		<div>
+			<label for="FirstName"> First Name </label>
+      <input id="FirstName"type="text" required placeholder="First Name"/>
+      </div>
+    <div>
+      <label for="LastName"> Last Name </label>
+      <input id="LastName"type="text" required placeholder="Last Name"/>
+      </div>
+    <div>
+      <label for="Email"> Email </label>
+      <input id="Email"type="email" required placeholder="Email"/>
+      </div>
+    <div>
+      <label for="Username"> Username </label>
+      <input id="Username"type="text" required placeholder="Username"/>
+      </div>
+    <div>
+      <label for="Password"> Password </label>
+      <input id="Password"type="Password" required minlength="10" placeholder="Password"/>
+      </div>
+    <div>
+      <label for="Birth date"> Birth date </label>
+      <input id="Birth date"type="date" required placeholder="Birth date"/>
+      </div>
+    <div>
+      <label for="Happy"> How happy are you? </label>
+      <input id="Happy"type="range" required list="marks"/>
+      <datalist id="marks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+      </datalist>
+      </div>
+    <div>
+      <label for="Color"> What is your fav.color? </label>
+      <input id="Color"type="color" required/>
+      </div>
+    <div>
+        <input type="submit" value="Creat Account"/>
+      </div>
+    <form>
+  </body>
+</html>
