@@ -40,3 +40,21 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
+
+@keyframes floatIcon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-music:hover,
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-comment-dots:hover {
+  animation: floatIcon 1s ease-in-out infinite;
+}
